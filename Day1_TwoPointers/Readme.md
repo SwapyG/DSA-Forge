@@ -1,19 +1,24 @@
 # Day 1: Two Pointers Technique
 
-## Problem Solved
-**LeetCode 167 - Two Sum II - Input Array Is Sorted**
+## Problems Solved
+1. **LeetCode 167 - Two Sum II - Input Array Is Sorted**
+2. **LeetCode 125 - Valid Palindrome**
 
 ## Technique Used
-Two Pointers - works efficiently on sorted arrays by using logical pointer movement based on sum comparison.
+Two Pointers - efficient traversal using two index variables moving toward each other.
+
+## Applications Demonstrated
+- **Finding pairs in sorted arrays** (Two Sum)
+- **String validation with filtering** (Palindrome)
+- **Single-pass efficient solutions**
 
 ## Time Complexity
-O(n) - Single pass through array
+O(n) - Linear traversal in both cases
 
 ## Space Complexity  
-O(1) - Only two pointer variables used
+O(1) - Constant extra space used
 
-## Key Insight
-On sorted data, we can make intelligent decisions about which pointer to move:
-- If sum > target: move right pointer left (decrease sum)
-- If sum < target: move left pointer right (increase sum)
-- If sum == target: solution found, return immediately
+## Key Insights
+1. **Sorted data advantage**: Make logical decisions about pointer movement
+2. **Character filtering**: Skip irrelevant characters while maintaining efficiency
+3. **Early termination**: Return immediately when condition is met

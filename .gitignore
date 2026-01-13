@@ -1,5 +1,14 @@
-*.iml
+# CLion
 .idea/
-*.cmake
+*.iml
+
+# CMake
 CMakeLists.txt
 cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# Compiled files
+*.o
+*.exe
+*.out
